@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "wayou.vscode-todo-highlight",
+    "naumovs.color-highlight",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.path-intellisense",
+    "jpoissonnier.vscode-styled-components",
+    "coenraads.bracket-pair-colorizer",
+    "pkief.material-icon-theme",
+    "Orta.vscode-danger"
+  ]
+}

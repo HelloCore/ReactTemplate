@@ -1,0 +1,61 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint", "react-hooks", "prettier"],
+    "extends": [
+      "airbnb",
+      "plugin:@typescript-eslint/recommended",
+      "prettier",
+      "prettier/@typescript-eslint"
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
+      "prettier/prettier": "error",
+      "import/no-cycle": "off",
+      "import/no-extraneous-dependencies": "off",
+      "import/no-named-as-default": "off",
+      "import/prefer-default-export": "off",
+      "import/no-named-as-default-member": "off",
+      "react/jsx-filename-extension": "off",
+      "react/destructuring-assignment": "off",
+      "react/prop-types": "off",
+      "react/jsx-one-expression-per-line": "off",
+      "no-use-before-define": "off",
+      "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+      "no-console": ["warn", { "allow": ["tron"] }],
+      "global-require": "off",
+      "@typescript-eslint/explicit-member-accessibility": ["off", "check-accessor", "check-constructor"],
+      "@typescript-eslint/explicit-function-return-type": "off",
+      "@typescript-eslint/no-use-before-define": "off",
+      "@typescript-eslint/no-empty-interface": "off",
+      "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_.+", "varsIgnorePattern": "^_.+" }],
+      "react/jsx-closing-bracket-location": "off",
+      "react/jsx-closing-tag-location": "off",
+      "react/jsx-curly-spacing": "off",
+      "react/jsx-equals-spacing": "off",
+      "react/jsx-first-prop-new-line": "off",
+      "react/jsx-indent": "off",
+      "react/jsx-indent-props": "off",
+      "react/jsx-max-props-per-line": "off",
+      "react/jsx-props-no-multi-spaces": "off",
+      "react/jsx-tag-spacing": "off",
+      "react/jsx-wrap-multilines": "off",
+      "react/self-closing-comp": "off"
+    },
+    "settings": {
+      "import/resolver": {
+        "typescript": {}
+      },
+      "react": {
+        "version": "detect"
+      }
+    },
+    "globals": {
+      "__DEV__": "readonly"
+    },
+    "env": {
+      "jest": true
+    }
+  }
+  
